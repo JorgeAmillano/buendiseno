@@ -1,0 +1,271 @@
+@media screen and (max-width:768px) {
+
+	.logo-menu{
+	
+		display:block;
+		font-size: 25px;
+
+		color:#254759;
+
+		position: absolute;
+		right: 20px;
+		top:7px;
+		
+	}
+	
+	header{
+	
+	}
+
+	
+	nav ul li{
+		display: none;
+		
+	}
+
+	
+	.menu-movil{
+		
+		margin-top: 40px;
+		-webkit-transition: 0.4s;
+		-moz-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;		
+		
+	}
+
+	.menu-movil ul{
+		float:none;
+
+	}
+	
+	.menu-movil ul li{
+		display: block;
+		text-align: center;
+		width: 100%;
+
+		padding: 10px;
+
+		background: white;
+
+		border-bottom:1px solid #d9d9d9;	
+
+
+	}
+
+
+	.menu-movil ul li a{
+		color:#254759;
+		padding: 10px 50px;
+		margin: 0;
+	}
+
+	/*.menu-movil ul li a:hover{
+		background:#254759;
+		color:#1da8f2;
+	}*/
+
+	.ani-menu{
+		-webkit-transition: 0.4s;
+		-moz-transition: 0.4s;
+		-o-transition: 0.4s;
+		transition: 0.4s;
+	}
+
+}
+
+/****************************************/
+/****** TITULOS Y BOTONES INICIO ********/
+/****************************************/
+
+@media screen and (max-width: 768px) {
+
+
+
+
+	.centrado{
+		position: relative;
+	}
+
+	.centrado h1{
+
+			font-size: 2.5rem;
+
+		}
+
+	.centrado h2{
+			font-size: 1.5rem;
+			margin-right: 0px;
+		}
+
+	.contenedor-btns{
+		display: block;
+	}
+
+	
+
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+	.btn-inicio{
+		display: block;
+		margin: 0;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 20px 30px;
+
+	}
+}
+
+
+/**************************************/
+/*********** CONTENEDOR FULL ***********/
+/*****************************************/
+
+@media screen and (max-width: 760px){
+
+	.contenedor-full{
+		background: url(../img/back-movil.jpg);
+	}
+}
+
+/*************************************/
+/************* ACERCA DE *************/
+/************************************/
+
+@media screen and (max-width: 768px) {
+
+	.acercade > div{
+		width: 70%;
+	}
+
+}
+
+
+/***************************************/
+/************ INTERES ******************/
+/**************************************/
+@media screen and (max-width:768px) {
+	.interesado{
+		background: url(../img/interes-movil.jpg);
+		
+	}
+}
+
+/************************************/
+/********* EQUIPO **************/
+/************************************/
+
+.equipo{
+	background: url(../img/equipo-movil.jpg)no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.equipo > div{
+	background: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	margin-right: 0px;
+}
+
+/************************************/
+/************* CONTACTO **************/
+/***********************************/
+
+@media screen and (max-width:768px) {
+
+	.contacto{
+		padding-bottom: 100px;
+	}
+	.contacto form textarea{
+		display: block;
+		
+		width: 90%;
+		height: 100px;
+	}
+
+	.contacto form input{
+		width: 90%;
+	}
+}
+
+
+/************************************/
+/************* FOOTER **************/
+/***********************************/
+
+@media screen and (max-width:768px) {
+	footer{
+		height: 50%;
+		padding: 40px 0px;
+	}
+
+	footer > div{
+		top:10%;
+	}
+
+	footer > div:nth-child(3){
+		padding-top: 30px;
+	}
+
+	footer div  ul li{
+		padding: 2px 0px;
+	}
+
+	footer div  ul li a{
+		font-size: 18px;
+		
+	}
+}
+
+/*********************************/
+/********** SINGLE ****************/
+/************************************/
+@media screen and (max-width: 768px){
+
+	.header-single > h1{
+
+		font-size: 1.8rem;
+		
+	}
+
+	.contenido-single > h2{
+
+		font-size: 1.5rem;
+	}
+
+	.contenido-single > img{
+
+		width: 75%;
+		height: 75%;
+	}
+
+	.parrafos{
+
+		padding: 30px 20px;
+		text-align: justify;
+	}
+
+	.parrafos > p{
+		font-size: 16px;
+	}
+
+
+	.comentarios > form > input{
+	
+		width: 85%;
+		height: 50px;
+	}
+
+.comentarios > form > textarea{
+		width: 85%;
+	}
+
+.comentarios > form > button{
+	padding: 20px 55px;
+}
+}
+
